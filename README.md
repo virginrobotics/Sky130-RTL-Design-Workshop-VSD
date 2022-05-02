@@ -49,4 +49,20 @@ First day is about learning what verilog and RTL is, difference between design a
 Folder verilog_files has all the digital designs in verilog along with testbenches for the trainee to compile and run. Let's see how one uses iverilog to simulate and view waveforms of an upcounter ,called upcntr.v and it's testbench tb_upcntr.v
 
 #### 1. Navigate to verilog_files
+Use the command ``` ls ``` to view the contents of each directory and navigate to where you cloned the workshop repo.
 ![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/verilogfiles.png)
+
+#### 2. See the verilog behind a module
+Use your faviourite text editor to open upcntr.v and tb_upcntr.v , the source and testbench for the upcounter.
+``` nano upcntr.v tb_upcntr.v ```
+Use ``` alt + . ```to toggle between files.
+> Behavioural Description
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/upcntr.png)
+> Testbench 
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/tbupcntr.png)
+
+#### 3. Compile verilog module and testbench
+Following is the syntax for compiling the upcounter verilog module and it's testbench.
+``` iverilog <module_name.v> <testbench_module_name.v> ```
+Example:
+``` iverilog upcntr.v tb_upcntr.v ```
