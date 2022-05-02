@@ -1,3 +1,5 @@
+![picture](https://user-images.githubusercontent.com/6804392/116619874-e78a8180-a8f5-11eb-93e3-c9c852726db8.png)
+
 # Sky130-RTL-Design-Workshop-VSD
 ------------------------------------------------
 This repository is a documentation of the 5 day workshop on RTL Design using iverilog and YOSYS for simulation and synthesis with Sky130 PDK. 
