@@ -113,5 +113,36 @@ Open the .vcd file using gtkwave
 ![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/gtkoutput.png)
 
 
+### YOSYS and Logic synthesis
+
+Yosys is an opensource framework for RTL synthesis tools. To realize your HDL in hardware , an important step is to convert that behavioural description of the design to a low level description like a #### Gate Level Netlist ####, which describes the design in terms of standard logic cells like AND, NOR, XOR, FLOPS from a device library. 
+
+To syhtesize a gate level netlist, you would need a standard cell library, in our case the sky130 PDK and a verilog module. 
+
+Following are the steps to synthesize a verilog module.
+
+#### 1. Call YOSYS
+
+Call the yosys tool 
+
+``` yosys```
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/yosys.png)
+
+#### 2. Read the liberty file (Cell libraries)
+
+> If synthesis is realizing HDL to a gate level netlist, how does one know what gates to use, what parameters for the gates like area, power , delay, number of inputs, outputs, risetime, leakage current and much more. It comes from a .lib file that follows the Liberty syntax ( Library Timing file ) that contains all the information of standard logic cells of a particular technology node with its timing model like setup time, hold time, cell delay , cell transition etc. The .lib file is usually provided by a third party vendor or the foundry itself, if it supports a standard cell library.
+
+Command to import library.
+
+``` read_liberty -lib <path to .lib file> ```
+
+In our case
+
+``` read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib ```
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/readliberty.png)
+
+
 
 
