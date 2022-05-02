@@ -192,7 +192,45 @@ A standard cell ```sky130_fd_sc_hd__mux2_1``` is called with ports i0,i1,sel and
 
 -----------
 
-## DAY 2 - Timing Libs, Hirearchial vs Flat synthesis and efficient flop coding styles
+## DAY 2 - Timing Libs, Hierarchial vs Flat synthesis and efficient flop coding styles
+
+### Timing Libs
+
+We are using devices from the Skywater130nm PDK technology node for constructing our logic cells and the properties of the cells depend on the device parameters too. 
+The cells come in different flavours to optimize application specific needs. 
+
+The library name ```sky130_fd_sc_hd_tt_025C_1v80.lib``` has the following information encoded in it's name.
+
+> fd = foundry,
+> sc = standard cell,
+> hd = high density,
+> tt = typical corner,
+> 025C = 25 degrees Celcius,
+> 1v80 = 1.8 Volts
+
+Different flavours of an and gate for example may have the following specs in terms of leakage power and dimensions among other.
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/and3.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/and2.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/and1.png)
+
+
+### Hierarchial vs FLat Synthesis
+
+A Hierarchial architecture has submodules inside the verilog program, example ```multiple_modules.v``` in verilog_files.
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/multiplemodules.png)
+
+submodule 1 corresponds to an and module and submodule two is a or gate. 
+
+Let's see what happens when we synthesize the verilog program
 
 
 
+----------
+
+## BIG THANKS TO 
+* ### [Kunal Ghosh Co-Founder VSD](https://www.vlsisystemdesign.com/)
+* ### [Shon Taware - Chipspirit]()
