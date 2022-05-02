@@ -192,5 +192,7 @@ A standard cell ```sky130_fd_sc_hd__mux2_1``` is called with ports i0,i1,sel and
 
 -----------
 
+## DAY 2 - Timing Libs, Hirearchial vs Flat synthesis and efficient flop coding styles
+
 
 
