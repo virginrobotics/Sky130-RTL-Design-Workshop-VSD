@@ -143,6 +143,29 @@ In our case
 
 ![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/readliberty.png)
 
+#### 3. Read the verilog module
+
+Read the verilog module you want to synthesise, lets use the module good_mux.v
+
+``` read_verilog good_mux.v ```
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/readverilog.png)
+
+#### 4. Synthesize top level module - Default Synthesis script
+
+Use the ```synth``` command to run the default synthesis command on specified verilog module.
+
+``` synth -top <modulename>
+
+Example 
+
+``` synth -top good_mux ```
+
+On running ```synth``` , the follwoing report is presented by YOSYS.
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/synthresult.png)
+
+
 
 
 
