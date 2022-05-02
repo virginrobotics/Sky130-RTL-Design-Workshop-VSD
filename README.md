@@ -163,12 +163,6 @@ Example
 
 On running ```synth``` , the follwoing report is presented by YOSYS.
 
-![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/synthresult.png)
-
-A MUX is called ,as expected.
-
-#### 5. ABC tool for technology mapping
-
 The ABC pass maps YOSYS's internal gate library to a target architecture, in our case the sky130 lib.
 
 ``` abc [option] [selection] ```
@@ -182,6 +176,21 @@ We use
 The report form the pass
 
 ![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/abcresult.png)
+
+#### 6. Graphical representation of Netlist 
+
+> Create a graphviz DOT file for the selected part of the design and compile it to a graphics file (usually SVG or PostScript).
+
+Using the command ```show``` gives us 
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/showterminal.png)
+
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/showmux.png)
+
+A standard cell ```sky130_fd_sc_hd__mux2_1``` is called with ports i0,i1,sel and y mapped suitably.
+
+-----------
 
 
 
