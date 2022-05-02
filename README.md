@@ -38,4 +38,15 @@ The workshop spanned 5 days from 26th April 2022 to 1 May 2022 with attendees pr
   * ### [If Case constructs]()
   * ### [Incomplete Overlapping Case]()
   * ### [For Loop and For Generate]()
+--------------
 
+## Day 1 Inroduction to Verilog RTL Design and Synthesis
+
+First day is about learning what verilog and RTL is, difference between design and synthesis, how they're tied together using testbenches, broad picture of YOSYS, iverilog, Netlists , Cell libraries etc.
+
+### Simulation using iverilog and gtkwave 
+
+Folder verilog_files has all the digital designs in verilog along with testbenches for the trainee to compile and run. Let's see how one uses iverilog to simulate and view waveforms of an upcounter ,called upcntr.v and it's testbench tb_upcntr.v
+
+#### 1. Navigate to verilog_files
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/verilogfiles.png)
