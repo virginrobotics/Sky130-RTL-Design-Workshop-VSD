@@ -1,4 +1,4 @@
-![picture](https://user-images.githubusercontent.com/6804392/116619874-e78a8180-a8f5-11eb-93e3-c9c852726db8.png)
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/Verilog-flyer.png)
 
 # Sky130-RTL-Design-Workshop-VSD
 ------------------------------------------------
