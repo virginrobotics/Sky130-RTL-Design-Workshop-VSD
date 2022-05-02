@@ -14,5 +14,11 @@ The workshop spanned 5 days from 26th April 2022 to 1 May 2022 with attendees pr
   * ### [Timing .libs]()
   * ### [Hierarchial vs Flat Synthesis]()
   * ### [Flop coding styles and optimization]()
-* ## [ DAY 3 - Combinational and Sequential Optimizations 
+* ## [ DAY 3 - Combinational and Sequential Optimizations]()
+  * ### [Introduction to Optimizations]()
+  * ### [Combinational Logic Optimizations]()
+  * ### [Sequential Logic Optimizations]()
+  * ### [SLO unused outputs]()
+* ## [ DAY 4 - GLS, Blocking vs Non-Blocking and Synthesis-Simulation mismatch]()
+  *  
 
