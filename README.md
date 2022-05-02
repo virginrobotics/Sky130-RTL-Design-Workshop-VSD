@@ -54,15 +54,64 @@ Use the command ``` ls ``` to view the contents of each directory and navigate t
 
 #### 2. See the verilog behind a module
 Use your faviourite text editor to open upcntr.v and tb_upcntr.v , the source and testbench for the upcounter.
+
 ``` nano upcntr.v tb_upcntr.v ```
+
 Use ``` alt + . ```to toggle between files.
+
 > Behavioural Description
-![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/upcntr.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/upcntrnew.png)
+
 > Testbench 
-![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/tbupcntr.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/tbupcntrnew.png)
 
 #### 3. Compile verilog module and testbench
 Following is the syntax for compiling the upcounter verilog module and it's testbench.
+
 ``` iverilog <module_name.v> <testbench_module_name.v> ```
+
 Example:
+
 ``` iverilog upcntr.v tb_upcntr.v ```
+
+The command creates a binary called 
+
+> a.out 
+
+We can specify our own name for the binary using
+
+``` iverilog -o among_us.out upcntr.v tb_upcntr.v ```
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/amongusout.png)
+
+Let's see what's inside our binary file among_us.out
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/binaryfile.png)
+
+### 4. .vcd File and GTK wave
+
+Execute the binary file created after compiling using
+
+``` ./<binaryfilename>.out ```
+
+In our case
+
+``` ./among_us.out ```
+
+The value change dump file will contain the simulation output, let's see what's inside.
+
+> nano tb_upcntr.vcd
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/vcdfile.png)
+
+Open the .vcd file using gtkwave
+
+``` gtkwave tb_upcntr.vcd ```
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/gtkoutput.png)
+
+
+
+
