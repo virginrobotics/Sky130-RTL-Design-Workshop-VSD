@@ -20,5 +20,12 @@ The workshop spanned 5 days from 26th April 2022 to 1 May 2022 with attendees pr
   * ### [Sequential Logic Optimizations]()
   * ### [SLO unused outputs]()
 * ## [ DAY 4 - GLS, Blocking vs Non-Blocking and Synthesis-Simulation mismatch]()
-  *  
+  * ### [Gate Level Simulation]()
+  * ### [Synthesis Simulation Mismatch]()
+  * ### [Blocking and Non-Blocking Statements]()
+  * ### [Blocking Statements Caveats]()
+* ## [ DAY 5 - If, Case, For loop and For Generate]()
+  * ### [If Case constructs]()
+  * ### [Incomplete Overlapping Case]()
+  * ### [For Loop and For Generate]()
 
