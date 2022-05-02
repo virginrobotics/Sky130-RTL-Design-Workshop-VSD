@@ -155,7 +155,7 @@ Read the verilog module you want to synthesise, lets use the module good_mux.v
 
 Use the ```synth``` command to run the default synthesis command on specified verilog module.
 
-``` synth -top <modulename>
+``` synth -top <modulename> ```
 
 Example 
 
