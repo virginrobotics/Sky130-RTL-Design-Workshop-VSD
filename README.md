@@ -165,7 +165,23 @@ On running ```synth``` , the follwoing report is presented by YOSYS.
 
 ![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/synthresult.png)
 
+A MUX is called ,as expected.
 
+#### 5. ABC tool for technology mapping
+
+The ABC pass maps YOSYS's internal gate library to a target architecture, in our case the sky130 lib.
+
+``` abc [option] [selection] ```
+
+We use
+
+``` abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib ```
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/abcpass.png)
+
+The report form the pass
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/abcresult.png)
 
 
 
