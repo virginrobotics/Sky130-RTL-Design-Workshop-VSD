@@ -227,6 +227,49 @@ submodule 1 corresponds to an and module and submodule two is a or gate.
 
 Let's see what happens when we synthesize the verilog program
 
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/multiplemodulessynth.png)
+
+after technology mapping through ```abc```
+
+we run ```show```
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/showmultiplemodules.png)
+
+
+### Flop coding styles and optimization
+----------
+
+## DAY 3 - Combinational and Sequential Optimization
+
+### Introduction to optimization
+
+### Combinational Logic Optimization
+
+### Sequential Logic Optimization
+
+### SLO unused outputs
+
+-------------
+
+## Day 4 GLS, Blocking vs Non Blocking and Synthesis-Simulation mismatch
+
+### Gate Level Simulation
+
+### Synthesis Simulation Mismatch
+
+### Blocking and Non-Blocking Statements 
+
+### Blocking statements caveats
+---------------
+
+## Day 5 - If, Case, For loop and For Generate
+
+### If case constructs
+
+### Incomplete Overlapping Constructs 
+
+### For loop and For generate
+
 
 
 ----------
