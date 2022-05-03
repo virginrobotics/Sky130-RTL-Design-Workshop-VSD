@@ -292,6 +292,11 @@ we run ```show```
 
 ### For loop and For generate
 
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/muxgenerateverilog.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/muxgeneratesynth.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/muxgenerate.png)
 
 
 ----------
