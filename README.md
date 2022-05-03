@@ -281,6 +281,15 @@ we run ```show```
 
 ### Incomplete Overlapping Constructs 
 
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/compcaseverilog.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/compcasesynth.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/showcompcase.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/compcasegtkwave.png)
+
+
 ### For loop and For generate
 
 
