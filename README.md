@@ -260,6 +260,8 @@ we run ```show```
 ### Blocking and Non-Blocking Statements 
 
 ### Blocking statements caveats
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/blockingcaveatgtkwave.png)
+
 ---------------
 
 ## Day 5 - If, Case, For loop and For Generate
