@@ -265,6 +265,19 @@ we run ```show```
 ## Day 5 - If, Case, For loop and For Generate
 
 ### If case constructs
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/incompifverilog.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/incompifsynth.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/showincompif.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/incompifgtkwave.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/incompif2synth.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/showincompif2.png)
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/incompif2gtkwavebad.png)
 
 ### Incomplete Overlapping Constructs 
 
