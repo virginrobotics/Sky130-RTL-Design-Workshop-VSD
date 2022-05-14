@@ -190,6 +190,18 @@ Using the command ```show``` gives us
 
 A standard cell ```sky130_fd_sc_hd__mux2_1``` is called with ports i0,i1,sel and y mapped suitably.
 
+#### SIDE NOTE : Why do logic cells have different flavours ?
+
+The sky130 library has different flavours of the same cells , eg - an AND gates basic operation is 
+> A&B
+
+but the liberty file contains several versions of AND gates with varying speed , power usage, rise times, footprint etc - Why ?
+Because a module made up of a combinatinal block sandwiched between two flops as shown below, needs careful selection of logic cells to meet Hold time and Setup time constraints that when violated will cause glitches or unpredictable states in the system.
+
+![picture](https://github.com/virginrobotics/Sky130-RTL-Design-Workshop-VSD/blob/main/images/whyslowcells.jpeg)
+
+Will go in more detail down the line.
+
 -----------
 
 ## DAY 2 - Timing Libs, Hierarchial vs Flat synthesis and efficient flop coding styles
